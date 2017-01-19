@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="iLog3">
+      <UniqueIdentifier>{2d13fed3-43e6-409a-84d6-4c9a9b163789}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\lib\LGPL\iLOG3\LOG.c">
+      <Filter>iLog3</Filter>
+    </ClCompile>
+    <ClCompile Include="code\lib\LGPL\iLOG3\LOGCONF.c">
+      <Filter>iLog3</Filter>
+    </ClCompile>
+    <ClCompile Include="code\lib\LGPL\iLOG3\LOGS.c">
+      <Filter>iLog3</Filter>
+    </ClCompile>
+    <ClCompile Include="code\lib\LGPL\iLOG3\LOGSCONF.c">
+      <Filter>iLog3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\lib\LGPL\iLOG3\LOG.h">
+      <Filter>iLog3</Filter>
+    </ClInclude>
+    <ClInclude Include="code\lib\LGPL\iLOG3\LOGCONF.h">
+      <Filter>iLog3</Filter>
+    </ClInclude>
+    <ClInclude Include="code\lib\LGPL\iLOG3\LOGS.h">
+      <Filter>iLog3</Filter>
+    </ClInclude>
+    <ClInclude Include="code\lib\LGPL\iLOG3\LOGSCONF.h">
+      <Filter>iLog3</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
