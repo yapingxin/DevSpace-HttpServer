@@ -26,6 +26,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\utility\HttpServer\HttpServer.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{e9ef9fe7-963c-4611-9cd8-0b1bcb3a8852}</ProjectGuid>
     <Keyword>Linux</Keyword>
@@ -60,11 +66,6 @@
   <ImportGroup Label="Shared" />
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
-  <ItemGroup>
-    <ClCompile Include="main.c" />
-  </ItemGroup>
-  <ItemGroup>
-  </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>
       <CLanguageStandard>c99</CLanguageStandard>
@@ -74,6 +75,7 @@
     <ClCompile>
       <CppLanguageStandard>c++98</CppLanguageStandard>
       <CompileAs>CompileAsC</CompileAs>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
@@ -85,6 +87,7 @@
     <ClCompile>
       <CppLanguageStandard>c++98</CppLanguageStandard>
       <CompileAs>CompileAsC</CompileAs>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -96,6 +99,7 @@
     <ClCompile>
       <CppLanguageStandard>c++98</CppLanguageStandard>
       <CompileAs>CompileAsC</CompileAs>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -107,6 +111,7 @@
     <ClCompile>
       <CppLanguageStandard>c++98</CppLanguageStandard>
       <CompileAs>CompileAsC</CompileAs>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
@@ -118,6 +123,7 @@
     <ClCompile>
       <CppLanguageStandard>c++98</CppLanguageStandard>
       <CompileAs>CompileAsC</CompileAs>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
@@ -129,6 +135,7 @@
     <ClCompile>
       <CppLanguageStandard>c++98</CppLanguageStandard>
       <CompileAs>CompileAsC</CompileAs>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

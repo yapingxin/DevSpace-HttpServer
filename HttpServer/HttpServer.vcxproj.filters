@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="code">
+      <UniqueIdentifier>{0270a52b-0d55-4b9a-af07-1ba769c3b84b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\utility">
+      <UniqueIdentifier>{38d721c1-ae40-4ce7-b993-b039eb345783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\utility\HttpServer">
+      <UniqueIdentifier>{c3874c6e-7a75-4fc7-86fb-2defe365c7a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\utility\HttpServer\HttpServer.h">
+      <Filter>code\utility\HttpServer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
