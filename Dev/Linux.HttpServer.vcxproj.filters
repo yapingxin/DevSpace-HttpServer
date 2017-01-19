@@ -1,33 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="Linux.HttpServer.c" />
     <ClCompile Include="code\lib\LGPL\iLOG3\LOG.c">
-      <Filter>code\lib\LGPL\iLOG3</Filter>
+      <Filter>lib\LGPL\iLOG3</Filter>
     </ClCompile>
     <ClCompile Include="code\lib\LGPL\iLOG3\LOGCONF.c">
-      <Filter>code\lib\LGPL\iLOG3</Filter>
+      <Filter>lib\LGPL\iLOG3</Filter>
     </ClCompile>
     <ClCompile Include="code\lib\LGPL\iLOG3\LOGS.c">
-      <Filter>code\lib\LGPL\iLOG3</Filter>
+      <Filter>lib\LGPL\iLOG3</Filter>
     </ClCompile>
     <ClCompile Include="code\lib\LGPL\iLOG3\LOGSCONF.c">
-      <Filter>code\lib\LGPL\iLOG3</Filter>
+      <Filter>lib\LGPL\iLOG3</Filter>
     </ClCompile>
+    <ClCompile Include="code\Linux.HttpServer.c" />
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="code">
-      <UniqueIdentifier>{64bdcf18-6fc0-4c67-8927-11465d446254}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="code\lib">
-      <UniqueIdentifier>{bd70956d-1d5c-430f-9a06-72aa22e0cc03}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="code\lib\LGPL">
-      <UniqueIdentifier>{667a1f12-08c3-4079-99c6-e33cfd246b6f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="code\lib\LGPL\iLOG3">
-      <UniqueIdentifier>{e1e3140a-2749-4a11-8d88-38174427a585}</UniqueIdentifier>
-    </Filter>
     <Filter Include="doc">
       <UniqueIdentifier>{291c503f-836e-477f-80db-4f3f51280b6a}</UniqueIdentifier>
     </Filter>
@@ -40,19 +28,28 @@
     <Filter Include="doc\lib\LGPL\iLog3">
       <UniqueIdentifier>{efea265f-d44f-4afa-ad62-4ada2aac506e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{bd70956d-1d5c-430f-9a06-72aa22e0cc03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\LGPL">
+      <UniqueIdentifier>{667a1f12-08c3-4079-99c6-e33cfd246b6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\LGPL\iLOG3">
+      <UniqueIdentifier>{e1e3140a-2749-4a11-8d88-38174427a585}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="code\lib\LGPL\iLOG3\LOG.h">
-      <Filter>code\lib\LGPL\iLOG3</Filter>
+      <Filter>lib\LGPL\iLOG3</Filter>
     </ClInclude>
     <ClInclude Include="code\lib\LGPL\iLOG3\LOGCONF.h">
-      <Filter>code\lib\LGPL\iLOG3</Filter>
+      <Filter>lib\LGPL\iLOG3</Filter>
     </ClInclude>
     <ClInclude Include="code\lib\LGPL\iLOG3\LOGS.h">
-      <Filter>code\lib\LGPL\iLOG3</Filter>
+      <Filter>lib\LGPL\iLOG3</Filter>
     </ClInclude>
     <ClInclude Include="code\lib\LGPL\iLOG3\LOGSCONF.h">
-      <Filter>code\lib\LGPL\iLOG3</Filter>
+      <Filter>lib\LGPL\iLOG3</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
