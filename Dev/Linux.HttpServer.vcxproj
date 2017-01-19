@@ -97,9 +97,17 @@
     <RemoteLdToolExe>gcc</RemoteLdToolExe>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="code\lib\LGPL\iLOG3\LOG.c" />
+    <ClCompile Include="code\lib\LGPL\iLOG3\LOGCONF.c" />
+    <ClCompile Include="code\lib\LGPL\iLOG3\LOGS.c" />
+    <ClCompile Include="code\lib\LGPL\iLOG3\LOGSCONF.c" />
     <ClCompile Include="Linux.HttpServer.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="code\lib\LGPL\iLOG3\LOG.h" />
+    <ClInclude Include="code\lib\LGPL\iLOG3\LOGCONF.h" />
+    <ClInclude Include="code\lib\LGPL\iLOG3\LOGS.h" />
+    <ClInclude Include="code\lib\LGPL\iLOG3\LOGSCONF.h" />
   </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>
