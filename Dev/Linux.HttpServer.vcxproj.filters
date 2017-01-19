@@ -28,6 +28,18 @@
     <Filter Include="code\lib\LGPL\iLOG3">
       <UniqueIdentifier>{e1e3140a-2749-4a11-8d88-38174427a585}</UniqueIdentifier>
     </Filter>
+    <Filter Include="doc">
+      <UniqueIdentifier>{291c503f-836e-477f-80db-4f3f51280b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="doc\lib">
+      <UniqueIdentifier>{6cbd674d-462a-4852-aef0-177427b32960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="doc\lib\LGPL">
+      <UniqueIdentifier>{160c788e-573c-4912-8a50-dde9f142a6c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="doc\lib\LGPL\iLog3">
+      <UniqueIdentifier>{efea265f-d44f-4afa-ad62-4ada2aac506e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="code\lib\LGPL\iLOG3\LOG.h">
@@ -42,5 +54,22 @@
     <ClInclude Include="code\lib\LGPL\iLOG3\LOGSCONF.h">
       <Filter>code\lib\LGPL\iLOG3</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="code\lib\LGPL\iLOG3\doc\INSTALL">
+      <Filter>doc\lib\LGPL\iLog3</Filter>
+    </None>
+    <None Include="code\lib\LGPL\iLOG3\doc\LICENSE">
+      <Filter>doc\lib\LGPL\iLog3</Filter>
+    </None>
+    <None Include="code\lib\LGPL\iLOG3\doc\README">
+      <Filter>doc\lib\LGPL\iLog3</Filter>
+    </None>
+    <None Include="code\lib\LGPL\iLOG3\doc\README-CN">
+      <Filter>doc\lib\LGPL\iLog3</Filter>
+    </None>
+    <None Include="code\lib\LGPL\iLOG3\doc\README-EN">
+      <Filter>doc\lib\LGPL\iLog3</Filter>
+    </None>
   </ItemGroup>
 </Project>

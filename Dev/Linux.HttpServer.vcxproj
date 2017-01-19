@@ -109,6 +109,13 @@
     <ClInclude Include="code\lib\LGPL\iLOG3\LOGS.h" />
     <ClInclude Include="code\lib\LGPL\iLOG3\LOGSCONF.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="code\lib\LGPL\iLOG3\doc\INSTALL" />
+    <None Include="code\lib\LGPL\iLOG3\doc\LICENSE" />
+    <None Include="code\lib\LGPL\iLOG3\doc\README" />
+    <None Include="code\lib\LGPL\iLOG3\doc\README-CN" />
+    <None Include="code\lib\LGPL\iLOG3\doc\README-EN" />
+  </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>
       <CLanguageStandard>c99</CLanguageStandard>
