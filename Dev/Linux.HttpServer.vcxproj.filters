@@ -68,5 +68,8 @@
     <None Include="code\lib\LGPL\iLOG3\doc\README-EN">
       <Filter>doc\lib\LGPL\iLog3</Filter>
     </None>
+    <None Include="LICENSE">
+      <Filter>doc</Filter>
+    </None>
   </ItemGroup>
 </Project>

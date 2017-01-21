@@ -4,6 +4,9 @@
     <Filter Include="iLog3">
       <UniqueIdentifier>{2d13fed3-43e6-409a-84d6-4c9a9b163789}</UniqueIdentifier>
     </Filter>
+    <Filter Include="doc">
+      <UniqueIdentifier>{cf2f8fa7-e346-457e-a4bc-56f2293de0cc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="code\lib\LGPL\iLOG3\LOG.c">
@@ -18,6 +21,7 @@
     <ClCompile Include="code\lib\LGPL\iLOG3\LOGSCONF.c">
       <Filter>iLog3</Filter>
     </ClCompile>
+    <ClCompile Include="code\lib\LGPL\iLOG3\test\test_demo.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="code\lib\LGPL\iLOG3\LOG.h">
@@ -32,5 +36,10 @@
     <ClInclude Include="code\lib\LGPL\iLOG3\LOGSCONF.h">
       <Filter>iLog3</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LICENSE">
+      <Filter>doc</Filter>
+    </None>
   </ItemGroup>
 </Project>

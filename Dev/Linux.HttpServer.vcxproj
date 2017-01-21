@@ -115,6 +115,7 @@
     <None Include="code\lib\LGPL\iLOG3\doc\README" />
     <None Include="code\lib\LGPL\iLOG3\doc\README-CN" />
     <None Include="code\lib\LGPL\iLOG3\doc\README-EN" />
+    <None Include="LICENSE" />
   </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>

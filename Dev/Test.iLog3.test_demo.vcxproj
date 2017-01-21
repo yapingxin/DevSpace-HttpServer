@@ -73,6 +73,9 @@
     <ClInclude Include="code\lib\LGPL\iLOG3\LOGS.h" />
     <ClInclude Include="code\lib\LGPL\iLOG3\LOGSCONF.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="LICENSE" />
+  </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
