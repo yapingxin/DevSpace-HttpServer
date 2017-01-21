@@ -65,36 +65,42 @@
     <RemoteCCompileToolExe>gcc</RemoteCCompileToolExe>
     <RemoteCppCompileToolExe>gcc</RemoteCppCompileToolExe>
     <RemoteLdToolExe>gcc</RemoteLdToolExe>
+    <AdditionalSourcesToCopyMapping>$(AdditionalSourcesToCopyMapping)</AdditionalSourcesToCopyMapping>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
     <TargetName>HttpServer</TargetName>
     <RemoteCCompileToolExe>gcc</RemoteCCompileToolExe>
     <RemoteCppCompileToolExe>gcc</RemoteCppCompileToolExe>
     <RemoteLdToolExe>gcc</RemoteLdToolExe>
+    <AdditionalSourcesToCopyMapping>$(AdditionalSourcesToCopyMapping)</AdditionalSourcesToCopyMapping>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <TargetName>HttpServer</TargetName>
     <RemoteCCompileToolExe>gcc</RemoteCCompileToolExe>
     <RemoteCppCompileToolExe>gcc</RemoteCppCompileToolExe>
     <RemoteLdToolExe>gcc</RemoteLdToolExe>
+    <AdditionalSourcesToCopyMapping>$(AdditionalSourcesToCopyMapping)</AdditionalSourcesToCopyMapping>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <TargetName>HttpServer</TargetName>
     <RemoteCCompileToolExe>gcc</RemoteCCompileToolExe>
     <RemoteCppCompileToolExe>gcc</RemoteCppCompileToolExe>
     <RemoteLdToolExe>gcc</RemoteLdToolExe>
+    <AdditionalSourcesToCopyMapping>$(AdditionalSourcesToCopyMapping)</AdditionalSourcesToCopyMapping>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
     <TargetName>HttpServer</TargetName>
     <RemoteCCompileToolExe>gcc</RemoteCCompileToolExe>
     <RemoteCppCompileToolExe>gcc</RemoteCppCompileToolExe>
     <RemoteLdToolExe>gcc</RemoteLdToolExe>
+    <AdditionalSourcesToCopyMapping>$(AdditionalSourcesToCopyMapping)</AdditionalSourcesToCopyMapping>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
     <TargetName>HttpServer</TargetName>
     <RemoteCCompileToolExe>gcc</RemoteCCompileToolExe>
     <RemoteCppCompileToolExe>gcc</RemoteCppCompileToolExe>
     <RemoteLdToolExe>gcc</RemoteLdToolExe>
+    <AdditionalSourcesToCopyMapping>$(AdditionalSourcesToCopyMapping)</AdditionalSourcesToCopyMapping>
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="code\lib\LGPL\iLOG3\LOG.c" />
@@ -115,6 +121,7 @@
     <None Include="code\lib\LGPL\iLOG3\doc\README" />
     <None Include="code\lib\LGPL\iLOG3\doc\README-CN" />
     <None Include="code\lib\LGPL\iLOG3\doc\README-EN" />
+    <None Include="code\resources\log.conf" />
     <None Include="LICENSE" />
   </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
@@ -127,6 +134,17 @@
       <CppLanguageStandard>c++98</CppLanguageStandard>
       <CompileAs>CompileAsC</CompileAs>
     </ClCompile>
+    <PreBuildEvent>
+      <AdditionalSourcesToCopyMapping>
+      </AdditionalSourcesToCopyMapping>
+    </PreBuildEvent>
+    <RemotePreBuildEvent>
+      <Command>
+      </Command>
+    </RemotePreBuildEvent>
+    <RemotePostBuildEvent>
+      <Command>cp $(RemoteRootDir)/$(ProjectName)/code/resources/log.conf $(RemoteOutDir)</Command>
+    </RemotePostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
     <ClCompile>
@@ -138,6 +156,17 @@
       <CppLanguageStandard>c++98</CppLanguageStandard>
       <CompileAs>CompileAsC</CompileAs>
     </ClCompile>
+    <PreBuildEvent>
+      <AdditionalSourcesToCopyMapping>
+      </AdditionalSourcesToCopyMapping>
+    </PreBuildEvent>
+    <RemotePreBuildEvent>
+      <Command>
+      </Command>
+    </RemotePreBuildEvent>
+    <RemotePostBuildEvent>
+      <Command>cp $(RemoteRootDir)/$(ProjectName)/code/resources/log.conf $(RemoteOutDir)</Command>
+    </RemotePostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -149,6 +178,17 @@
       <CppLanguageStandard>c++98</CppLanguageStandard>
       <CompileAs>CompileAsC</CompileAs>
     </ClCompile>
+    <PreBuildEvent>
+      <AdditionalSourcesToCopyMapping>
+      </AdditionalSourcesToCopyMapping>
+    </PreBuildEvent>
+    <RemotePreBuildEvent>
+      <Command>
+      </Command>
+    </RemotePreBuildEvent>
+    <RemotePostBuildEvent>
+      <Command>cp $(RemoteRootDir)/$(ProjectName)/code/resources/log.conf $(RemoteOutDir)</Command>
+    </RemotePostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -160,6 +200,17 @@
       <CppLanguageStandard>c++98</CppLanguageStandard>
       <CompileAs>CompileAsC</CompileAs>
     </ClCompile>
+    <PreBuildEvent>
+      <AdditionalSourcesToCopyMapping>
+      </AdditionalSourcesToCopyMapping>
+    </PreBuildEvent>
+    <RemotePreBuildEvent>
+      <Command>
+      </Command>
+    </RemotePreBuildEvent>
+    <RemotePostBuildEvent>
+      <Command>cp $(RemoteRootDir)/$(ProjectName)/code/resources/log.conf $(RemoteOutDir)</Command>
+    </RemotePostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
     <ClCompile>
@@ -171,6 +222,17 @@
       <CppLanguageStandard>c++98</CppLanguageStandard>
       <CompileAs>CompileAsC</CompileAs>
     </ClCompile>
+    <PreBuildEvent>
+      <AdditionalSourcesToCopyMapping>
+      </AdditionalSourcesToCopyMapping>
+    </PreBuildEvent>
+    <RemotePreBuildEvent>
+      <Command>
+      </Command>
+    </RemotePreBuildEvent>
+    <RemotePostBuildEvent>
+      <Command>cp $(RemoteRootDir)/$(ProjectName)/code/resources/log.conf $(RemoteOutDir)</Command>
+    </RemotePostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
     <ClCompile>
@@ -182,6 +244,17 @@
       <CppLanguageStandard>c++98</CppLanguageStandard>
       <CompileAs>CompileAsC</CompileAs>
     </ClCompile>
+    <PreBuildEvent>
+      <AdditionalSourcesToCopyMapping>
+      </AdditionalSourcesToCopyMapping>
+    </PreBuildEvent>
+    <RemotePreBuildEvent>
+      <Command>
+      </Command>
+    </RemotePreBuildEvent>
+    <RemotePostBuildEvent>
+      <Command>cp $(RemoteRootDir)/$(ProjectName)/code/resources/log.conf $(RemoteOutDir)</Command>
+    </RemotePostBuildEvent>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

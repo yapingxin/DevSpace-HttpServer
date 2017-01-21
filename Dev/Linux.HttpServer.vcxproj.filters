@@ -37,6 +37,9 @@
     <Filter Include="lib\LGPL\iLOG3">
       <UniqueIdentifier>{e1e3140a-2749-4a11-8d88-38174427a585}</UniqueIdentifier>
     </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{3af44cdd-33fe-4649-b10b-9051b2ea9837}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="code\lib\LGPL\iLOG3\LOG.h">
@@ -70,6 +73,9 @@
     </None>
     <None Include="LICENSE">
       <Filter>doc</Filter>
+    </None>
+    <None Include="code\resources\log.conf">
+      <Filter>resources</Filter>
     </None>
   </ItemGroup>
 </Project>
