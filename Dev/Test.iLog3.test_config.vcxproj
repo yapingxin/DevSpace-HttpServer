@@ -68,7 +68,7 @@
     <ClCompile Include="code\lib\LGPL\iLOG3\test\test_config.c" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="code\resources\log.conf" />
+    <None Include="code\resources\default-logs.conf" />
     <None Include="LICENSE" />
   </ItemGroup>
   <ItemGroup>

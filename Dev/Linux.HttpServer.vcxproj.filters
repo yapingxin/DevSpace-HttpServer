@@ -74,7 +74,7 @@
     <None Include="LICENSE">
       <Filter>doc</Filter>
     </None>
-    <None Include="code\resources\log.conf">
+    <None Include="code\resources\default-logs.conf">
       <Filter>resources</Filter>
     </None>
   </ItemGroup>
