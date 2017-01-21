@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="code\lib\LGPL\iLOG3\LOG.c">
+      <Filter>iLog3</Filter>
+    </ClCompile>
+    <ClCompile Include="code\lib\LGPL\iLOG3\LOGCONF.c">
+      <Filter>iLog3</Filter>
+    </ClCompile>
+    <ClCompile Include="code\lib\LGPL\iLOG3\LOGS.c">
+      <Filter>iLog3</Filter>
+    </ClCompile>
+    <ClCompile Include="code\lib\LGPL\iLOG3\LOGSCONF.c">
+      <Filter>iLog3</Filter>
+    </ClCompile>
+    <ClCompile Include="code\lib\LGPL\iLOG3\test\test_config.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="doc">
+      <UniqueIdentifier>{66be0b2f-bc4b-4645-98e5-093c1eab964f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iLog3">
+      <UniqueIdentifier>{49afc85c-2f14-46ac-a047-2dce9ae0f0be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{8943502a-9076-4f42-8169-a4368113c750}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LICENSE">
+      <Filter>doc</Filter>
+    </None>
+    <None Include="code\resources\log.conf">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\lib\LGPL\iLOG3\LOG.h">
+      <Filter>iLog3</Filter>
+    </ClInclude>
+    <ClInclude Include="code\lib\LGPL\iLOG3\LOGCONF.h">
+      <Filter>iLog3</Filter>
+    </ClInclude>
+    <ClInclude Include="code\lib\LGPL\iLOG3\LOGS.h">
+      <Filter>iLog3</Filter>
+    </ClInclude>
+    <ClInclude Include="code\lib\LGPL\iLOG3\LOGSCONF.h">
+      <Filter>iLog3</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iLog3", "iLog3", "{A9C4B77F
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test.iLog3.test_demo", "Test.iLog3.test_demo.vcxproj", "{B48E1723-9098-4E70-A19B-425220D839D5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test.iLog3.test_config", "Test.iLog3.test_config.vcxproj", "{A99FF7E9-4F23-4547-B270-4282B1E873FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -45,6 +47,18 @@ Global
 		{B48E1723-9098-4E70-A19B-425220D839D5}.Release|x64.Build.0 = Release|x64
 		{B48E1723-9098-4E70-A19B-425220D839D5}.Release|x86.ActiveCfg = Release|x86
 		{B48E1723-9098-4E70-A19B-425220D839D5}.Release|x86.Build.0 = Release|x86
+		{A99FF7E9-4F23-4547-B270-4282B1E873FB}.Debug|ARM.ActiveCfg = Debug|ARM
+		{A99FF7E9-4F23-4547-B270-4282B1E873FB}.Debug|ARM.Build.0 = Debug|ARM
+		{A99FF7E9-4F23-4547-B270-4282B1E873FB}.Debug|x64.ActiveCfg = Debug|x64
+		{A99FF7E9-4F23-4547-B270-4282B1E873FB}.Debug|x64.Build.0 = Debug|x64
+		{A99FF7E9-4F23-4547-B270-4282B1E873FB}.Debug|x86.ActiveCfg = Debug|x86
+		{A99FF7E9-4F23-4547-B270-4282B1E873FB}.Debug|x86.Build.0 = Debug|x86
+		{A99FF7E9-4F23-4547-B270-4282B1E873FB}.Release|ARM.ActiveCfg = Release|ARM
+		{A99FF7E9-4F23-4547-B270-4282B1E873FB}.Release|ARM.Build.0 = Release|ARM
+		{A99FF7E9-4F23-4547-B270-4282B1E873FB}.Release|x64.ActiveCfg = Release|x64
+		{A99FF7E9-4F23-4547-B270-4282B1E873FB}.Release|x64.Build.0 = Release|x64
+		{A99FF7E9-4F23-4547-B270-4282B1E873FB}.Release|x86.ActiveCfg = Release|x86
+		{A99FF7E9-4F23-4547-B270-4282B1E873FB}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,5 +66,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A9C4B77F-D498-4C25-B241-8E0965E2197E} = {6AA96B11-9B57-48BD-9102-FF08AFBCCE51}
 		{B48E1723-9098-4E70-A19B-425220D839D5} = {A9C4B77F-D498-4C25-B241-8E0965E2197E}
+		{A99FF7E9-4F23-4547-B270-4282B1E873FB} = {A9C4B77F-D498-4C25-B241-8E0965E2197E}
 	EndGlobalSection
 EndGlobal
